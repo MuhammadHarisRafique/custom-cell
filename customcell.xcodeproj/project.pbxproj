@@ -12,6 +12,10 @@
 		045175871C99789500D80B5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045175851C99789500D80B5C /* Main.storyboard */; };
 		045175891C99789500D80B5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045175881C99789500D80B5C /* Assets.xcassets */; };
 		0451758C1C99789500D80B5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0451758A1C99789500D80B5C /* LaunchScreen.storyboard */; };
+		045175961C997E7600D80B5C /* a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 045175931C997E7600D80B5C /* a.jpg */; };
+		045175971C997E7600D80B5C /* b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 045175941C997E7600D80B5C /* b.jpg */; };
+		045175981C997E7600D80B5C /* c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 045175951C997E7600D80B5C /* c.jpg */; };
+		0451759A1C99815F00D80B5C /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045175991C99815F00D80B5C /* CustomCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		045175881C99789500D80B5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0451758B1C99789500D80B5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0451758D1C99789500D80B5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045175931C997E7600D80B5C /* a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpg; sourceTree = "<group>"; };
+		045175941C997E7600D80B5C /* b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b.jpg; sourceTree = "<group>"; };
+		045175951C997E7600D80B5C /* c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c.jpg; sourceTree = "<group>"; };
+		045175991C99815F00D80B5C /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +67,11 @@
 				045175851C99789500D80B5C /* Main.storyboard */,
 				045175881C99789500D80B5C /* Assets.xcassets */,
 				0451758A1C99789500D80B5C /* LaunchScreen.storyboard */,
+				045175931C997E7600D80B5C /* a.jpg */,
+				045175941C997E7600D80B5C /* b.jpg */,
+				045175951C997E7600D80B5C /* c.jpg */,
 				0451758D1C99789500D80B5C /* Info.plist */,
+				045175991C99815F00D80B5C /* CustomCellTableViewCell.swift */,
 			);
 			path = customcell;
 			sourceTree = "<group>";
@@ -123,6 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0451758C1C99789500D80B5C /* LaunchScreen.storyboard in Resources */,
+				045175971C997E7600D80B5C /* b.jpg in Resources */,
+				045175961C997E7600D80B5C /* a.jpg in Resources */,
+				045175981C997E7600D80B5C /* c.jpg in Resources */,
 				045175891C99789500D80B5C /* Assets.xcassets in Resources */,
 				045175871C99789500D80B5C /* Main.storyboard in Resources */,
 			);
@@ -137,6 +152,7 @@
 			files = (
 				045175841C99789500D80B5C /* ViewController.swift in Sources */,
 				045175821C99789500D80B5C /* AppDelegate.swift in Sources */,
+				0451759A1C99815F00D80B5C /* CustomCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
