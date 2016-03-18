@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0408498A1C9AE2CD006FB2FD /* ViewController2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040849891C9AE2CD006FB2FD /* ViewController2ViewController.swift */; };
 		045175821C99789500D80B5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045175811C99789500D80B5C /* AppDelegate.swift */; };
 		045175841C99789500D80B5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045175831C99789500D80B5C /* ViewController.swift */; };
 		045175871C99789500D80B5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045175851C99789500D80B5C /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040849891C9AE2CD006FB2FD /* ViewController2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2ViewController.swift; sourceTree = "<group>"; };
 		0451757E1C99789500D80B5C /* customcell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customcell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045175811C99789500D80B5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		045175831C99789500D80B5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				045175951C997E7600D80B5C /* c.jpg */,
 				0451758D1C99789500D80B5C /* Info.plist */,
 				045175991C99815F00D80B5C /* CustomCellTableViewCell.swift */,
+				040849891C9AE2CD006FB2FD /* ViewController2ViewController.swift */,
 			);
 			path = customcell;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			files = (
 				045175841C99789500D80B5C /* ViewController.swift in Sources */,
 				045175821C99789500D80B5C /* AppDelegate.swift in Sources */,
+				0408498A1C9AE2CD006FB2FD /* ViewController2ViewController.swift in Sources */,
 				0451759A1C99815F00D80B5C /* CustomCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +304,7 @@
 				045175921C99789500D80B5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
